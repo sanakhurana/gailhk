@@ -1,0 +1,48 @@
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss';
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+@import '~font-awesome/scss/_variables.scss';
+$fa-font-path: "~font-awesome/fonts/";
+@import '~font-awesome/scss/font-awesome.scss';
+
+.navbar-brand { padding-top: 0; }
+.navbar-brand > img { border: 0; border-radius: 50%; height: 50px; width: 50px; margin: 0; padding: 0; }
+.well {
+    color: rgb(255, 255, 255);
+    background: rgb(102, 0, 102);
+}
+.well > img{
+    background: rgb(102, 0, 102);
+    border: 0; width: 98%; margin: 10px; padding: 0;
+    height: 300px;
+}
+.navbar-nav { float: right;
+    position: relative;
+    left: -40%; /* or right 50% */
+    text-align: left;}
+.container-fluid { background: rgb(255, 255, 255);
+                    width: 100%; margin-left: -15}
+a:hover {
+    background: rgb(204, 0, 0) !important;
+    color : rgb(255, 255, 255) !important;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: rgb(255, 255, 255);
+}
+.navbar-default {
+    color: #555;
+    background-color: rgb(255, 255, 255) !important;
+}
+.caption {
+    align-self: center;
+}
+h1 {
+    margin-left: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
